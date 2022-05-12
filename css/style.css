@@ -1,0 +1,73 @@
+body{
+    background-image: url(../imagens/fundo.jpg);
+    
+}
+header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    background-color: #b65311;
+    font-size: 20px;
+    padding: 10px;
+}
+figure, figure img{
+    width: 400px;
+    height: 400px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+figcaption{
+    text-align: center;
+    font-size: 20px;
+    color: #b65311;
+    padding: 8px;
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+#img1{
+    background-image: url('../imagens/harry_a.jpg');
+    
+}
+#img1:active{
+    background-image: url('../imagens/harry.jpg');
+}
+#img2{
+    background-image: url('../imagens/hermione_a.jpg');
+    
+}
+#img2:active{
+    background-image: url('../imagens/hermione.jpg');
+}
+#img3{
+    background-image: url('../imagens/draco_a.jpg');
+    
+}
+#img3:active{
+    background-image: url('../imagens/draco.jpg');
+}
+#img4{
+    background-image: url('../imagens/dumbledore_a.jpg');
+    
+}
+#img4:active{
+    background-image: url('../imagens/dumbledore.jpg');
+}
+#img5{
+    background-image: url('../imagens/sirius_a.jpg');
+    
+}
+#img5:active{
+    background-image: url('../imagens/sirius.jpg');
+}
+#img6{
+    background-image: url('../imagens/snape_a.jpg');
+    
+}
+#img6:active{
+    background-image: url('../imagens/snape.jpg')
+}
+
